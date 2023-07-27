@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "N:\\Dot NetDemo\\myfirstApp\\myfirstApp.csproj": {}
+    "N:\\DotNet\\DotNetDemo\\myfirstapp\\myfirstapp.csproj": {}
   },
   "projects": {
-    "N:\\Dot NetDemo\\myfirstApp\\myfirstApp.csproj": {
+    "N:\\DotNet\\DotNetDemo\\myfirstapp\\myfirstapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "N:\\Dot NetDemo\\myfirstApp\\myfirstApp.csproj",
-        "projectName": "myfirstApp",
-        "projectPath": "N:\\Dot NetDemo\\myfirstApp\\myfirstApp.csproj",
+        "projectUniqueName": "N:\\DotNet\\DotNetDemo\\myfirstapp\\myfirstapp.csproj",
+        "projectName": "myfirstapp",
+        "projectPath": "N:\\DotNet\\DotNetDemo\\myfirstapp\\myfirstapp.csproj",
         "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "N:\\Dot NetDemo\\myfirstApp\\obj\\",
+        "outputPath": "N:\\DotNet\\DotNetDemo\\myfirstapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

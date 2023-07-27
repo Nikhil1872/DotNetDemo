@@ -7,39 +7,47 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = myfirstApp
-build_property.RootNamespace = myfirstApp
-build_property.ProjectDir = N:\Dot NetDemo\myfirstApp\
+build_property.RootNamespace = myfirstapp
+build_property.RootNamespace = myfirstapp
+build_property.ProjectDir = N:\DotNet\DotNetDemo\myfirstapp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = N:\Dot NetDemo\myfirstApp
+build_property.MSBuildProjectDirectory = N:\DotNet\DotNetDemo\myfirstapp
 build_property._RazorSourceGeneratorDebug = 
 
-[N:/Dot NetDemo/myfirstApp/Views/Home/Index.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Emp/empjson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXGVtcGpzb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Emp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/Home/Privacy.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/Shared/Error.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/_ViewImports.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/_ViewStart.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[N:/Dot NetDemo/myfirstApp/Views/Shared/_Layout.cshtml]
+[N:/DotNet/DotNetDemo/myfirstapp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1kcdslvek8
+build_metadata.AdditionalFiles.CssScope = b-pqvwge1t0c

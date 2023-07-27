@@ -1,4 +1,4 @@
-namespace myfirstApp
+namespace myfirstapp
 {
     public class Program
     {
