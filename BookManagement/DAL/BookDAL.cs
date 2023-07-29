@@ -86,6 +86,88 @@ namespace BookManagement.DAL
             }
         }
 
+        public static int InsertData(Book b)
+        {
+            int res = default;
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand())
+                {
+                    Console.WriteLine("in InsertData BookDal");
+
+                    cmd.Connection = con;
+                    cmd.CommandText = "Insert into Book values(@id,@name,@author,@price,@publication,@bktype,@created,@updated)";
+                    cmd.Parameters.AddWithValue("@id", b.Id);
+                    cmd.Parameters.AddWithValue("@name", b.Name);
+                    cmd.Parameters.AddWithValue("@author", b.Author);
+                    cmd.Parameters.AddWithValue("@price", b.Price);
+                    cmd.Parameters.AddWithValue("@publication", b.Publication);
+                    cmd.Parameters.AddWithValue("@bktype", b.BookType);
+                    cmd.Parameters.AddWithValue("@created", b.Created);
+                    cmd.Parameters.AddWithValue("@updated", b.Updated);
+
+                    res = cmd.ExecuteNonQuery();
+                    con.Close();
+                }
+                return res;
+            }
+        }
+
+        public static int UpdateData(Book b)
+        {
+            int res = default;
+
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand()  )
+                {
+                    cmd.Connection = con;
+
+
+
+                    cmd.CommandText = "Update Book set Name= @name,Author= @author,Price=@price,Publication=@publication,BookType=@bktype,Updated=@updated where Id=@id";
+
+                    cmd.Parameters.AddWithValue("@id", b.Id);
+                    cmd.Parameters.AddWithValue("@name", b.Name);
+                    cmd.Parameters.AddWithValue("@author", b.Author);
+                    cmd.Parameters.AddWithValue("@price", b.Price);
+                    cmd.Parameters.AddWithValue("@publication", b.Publication);
+                    cmd.Parameters.AddWithValue("@bktype", b.BookType);
+                    cmd.Parameters.AddWithValue("@updated", b.Updated);
+
+                    res = cmd.ExecuteNonQuery();
+                    con.Close() ;
+                }
+            }
+            return res;
+
+        }
+
+        public static int DeleteData(int id)
+        {
+            int res = default;
+            using (MySqlConnection con = new MySqlConnection(constr))
+            {
+                con.Open();
+                using (MySqlCommand cmd = new MySqlCommand())
+                {
+
+                    cmd.Connection = con;
+                    cmd.CommandText = "Delete from Book where Id=@id";
+                    cmd.Parameters.AddWithValue("@id", id);
+
+
+                    res = cmd.ExecuteNonQuery();
+
+                    con.Close();
+                }
+
+            }
+            return res;
+        }
+
         internal static List<Book> GetListofBooks()
         {
             throw new NotImplementedException();

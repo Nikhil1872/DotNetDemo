@@ -1,11 +1,9 @@
 ﻿<h1>Create New Book</h1>
-
- Console.writeLine("in view create ");
 @model Book
-<form asp-action="Create" method="post">
+<form asp-action="Update" method="post">
     <div>
         <label asp-for="Id" class="control-label">Id:</label>
-        <input type="number" asp-for="Id" class="form-control" />
+        <input type="number" asp-for="Id" class="form-control" readonly="readonly" />
     </div>
     <div>
         <label asp-for="Name" class="control-label">Name:</label>
@@ -31,13 +29,11 @@
             <option value="BPB">BPB</option>
             <option value="Wrox">Wrox</option>
             <option value="TMH">TMH</option>
-            <option value="Oxford">Oxford</option>
-            <option value="THF">TheHolyFaith</option>
         </select>
     </div>
     <div>
-        <input type="submit"  />
-        <input type="reset" />
+        <input type="submit" />
+        <input type="Reset" />
     </div>
 
 </form>
